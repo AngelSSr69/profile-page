@@ -1,0 +1,140 @@
+.body {
+  background: linear-gradient(-45deg, rgba(75, 6, 165, 0.89), rgba(1, 1, 152, 0.991));
+  margin: 80;
+  padding: 80;
+  display: grid;
+  place-items: center;
+}
+
+
+.bar {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+} 
+
+.bar-link {
+  float: left;
+  display: block;
+  color: rgb(94, 37, 226);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.bar-link:hover {
+  background-color: #575757;
+}
+
+#title {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-style: italic;
+  background: peachpuff;
+  color: rgb(237, 155, 1);
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 4%;
+  margin-top: 9%;
+}
+
+ .header, .th {
+  font-style: Georgia;
+  color: orange;
+  font-family: Helvetica;
+  text-align: center;
+  padding: 20px 10px;
+  margin-bottom: 4%;
+  margin-top: 9%;
+}
+
+.p, .list-item, .h1, .header {
+  border: 1px solid rgba(218, 131, 1, 0.842);
+  border-width: 3px;
+  background: peachpuff;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.link {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+
+.p, .tr {
+  font-style: "Times New Roman";
+  color: plum;
+}
+
+.list-item {
+  font-style: "Times New Roman";
+  color: plum;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+.list-item {
+  background-color: #4502b7;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.jpg, .jpg2, .jpg3 {
+  background-image: url("images/IMG_9418.jpg") ;
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+  width: 440px;
+  border: 4px solid rgba(228, 156, 2, 0.767);
+}
+
+.th {
+  border: 1px solid rgba(218, 131, 1, 0.842);
+  border-width: 5px;
+}
+
+.tr {
+  border: 1px solid rgba(218, 131, 1, 0.842);
+  border-width: 2px;
+}
+
+.table {
+  margin-bottom: 8%;
+}
+
+@media (max-width: 700px) {
+  .p {
+    font-size: 14px;
+    line-height: 1.5;
+    height: 270px;
+    width: 320px;
+}
+.jpg, .jpg2, .jpg3 {
+  height: 350px;
+  width: 350px;
+}
+}
+
+@media (max-width: 600px) {
+  .body {
+    font-size: 14px;
+
+}
+.h1, .header {
+    border-radius: 3px;
+    border: 2px solid rgba(218, 131, 1, 0.842);
+}
+.table {
+  height: 300px;
+  width: 320px;
+}
+}

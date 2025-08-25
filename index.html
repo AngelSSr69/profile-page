@@ -4,83 +4,102 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Angel</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
     </head>
-    <body>
-        <h1>All about me</h1>
+    <body class="body">
 
-        <h2>Links</h2>
-        <a href="http://127.0.0.1:5500/index.html" target="_blank">Angel</a>
+        <nav class="bar">
+            <a href="#flex-container" class="bar-link">My Hobbies</a>
+            <a href="#gallery" class="bar-link">Gallery</a>
+        </nav>
+
+        <h1 id="title" class="h1">All about me</h1>
+
+        <h2 class="header">Links</h2>
+        <a class="link" href="https://www.youtube.com/" target="_blank">Youtube</a>
         <br>
-        <a href="#photogallery">Go to Gallery</a>
+        <a class="link" href="#photogallery">Go to Gallery</a>
 
-        <h2>Quick summary</h2>
-        <p>
+        <h2 class="header">Quick summary</h2>
+        <p class="p">
             My name is Angel Salazar, I'm 19 years old, and I lived in Mississippi my whole life. I went and graduated from Vardaman High School, with honors. 
             I'm currently a student at Base Camp Coding Academy, where I’m learning how to do frontend and backend coding and be a full stack developer. 
             I’m hoping in the future to get more into video game development and start creating my own video games. 
             My reason for going into video game development is because I was inspired by FromSoftwear games. 
             I’m still new to coding but I’m still trying my best to learn and understand.
         </p>
-        <h2>My Hobbies</h2>
-        <ul>
-            <li>Gaming</li>
-            <li>Watching movies</li>
-            <li>Drawing</li>
-            <li>Lifting weights/working out</li>
-            <li>Cooking</li>
-            <li>Reading comic books</li>
-        </ul>
-
-        <h2 id="photogallery"> Photo Gallery</h2>
-        <img src="images/IMG_9418.jpg" height="200" width="160" alt="First week of Base Camp">
         <br>
-        <img src="images/1000002988.jpg" height="200" width="200" alt="Cooking for myself"> 
-        <br>
-        <img src="images/20250118_143419.jpg" height="200" width="250" alt="">
 
-        <h2>Weekly schedule</h2>
-        <table border="1">
+            <h2 class="header">My Hobbies</h2>
+            <br>
+            <ul class="list-item">
+                <li class="list-item">Gaming</li>
+                <li class="list-item">Watching movies</li>
+                <li class="list-item">Drawing</li>
+                <li class="list-item">Lifting weights/working out</li>
+                <li class="list-item">Cooking</li>
+                <li class="list-item">Reading comic books</li>
+            </ul>
+        <br>
+
+        <h2 id="photogallery" class="header"> Photo Gallery</h2>
+        <img class="jpg" src="images/IMG_9418.jpg" height="200" width="160" alt="First week of Base Camp">
+        <br>
+        <img class="jpg2" src="images/1000002988.jpg" height="200" width="200" alt="Cooking for myself"> 
+        <br>
+        <img class="jpg3" src="images/20250118_143419.jpg" height="200" width="250" alt="">
+
+        <h2 class="header">Weekly schedule</h2>
+        <table border="1" class="table">
             <thead>
                 <tr>
-                    <th>Time of day</th>
-                    <th>Sunday</th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                    <th>Saturday</th>
+                    <th class="th">Schedule</th>
+                    <th class="th">Morning</th>
+                    <th class="th">Evening</th>
+                    <th class="th">Night</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Morning</td>
+                <tr class="tr">
+                    <td>Sunday</td>
                     <td>Wake up and spend time with family</td>
-                    <td>Wake up and go to class</td>
-                    <td>Wake up and go to class</td>
-                    <td>Wake up and go to class</td>
-                    <td>Wake up and go to class</td>
-                    <td>Wake up and go to class</td>
-                    <td>Do whatever I want</td>
-                </tr>
-                <tr>
-                    <td>Evening</td>
                     <td>Get ready to go back to Water Valley</td>
+                    <td>Go to sleep to get ready for school</td>
+                </tr>
+                <tr class="tr">
+                    <td>Monday</td>
+                    <td>Wake up and go to class</td>
                     <td>Relax from School</td>
-                    <td>Relax from School</td>
-                    <td>Relax from School</td>
-                    <td>Relax from School</td>
-                    <td>Go home for the weekend</td>
-                    <td>Do whatever I want</td>
+                    <td>Go to sleep to get ready for school</td>    
              </tr>
-                <tr>
-                    <td>Night</td>
+                <tr class="tr">
+                    <td>Tuesday</td>
+                    <td>Wake up and go to class</td>
+                    <td>Relax from School</td>
                     <td>Go to sleep to get ready for school</td>
+                </tr>
+                <tr class="tr">
+                    <td>Wednesday</td>
+                    <td>Wake up and go to class</td>
+                    <td>Relax from School</td>
                     <td>Go to sleep to get ready for school</td>
+                </tr>
+                <tr class="tr">
+                    <td>Thursday</td>
+                    <td>Wake up and go to class</td>
+                    <td>Relax from School</td>
                     <td>Go to sleep to get ready for school</td>
-                    <td>Go to sleep to get ready for school</td>
-                    <td>Go to sleep to get ready for school</td>
+                </tr>
+                <tr class="tr">
+                    <td>Friday</td>
+                    <td>Wake up and go to class</td>
+                    <td>Go home for the weekend</td>
                     <td>Spend time with family and go to sleep later</td>
+                </tr>
+                <tr class="tr">
+                    <td>Saturday</td>
+                    <td>Do whatever I want</td>
+                    <td>Do whatever I want</td>
                     <td>Do whatever I want</td>
                 </tr>
             </tbody>
